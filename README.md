@@ -1,0 +1,2 @@
+# youtube-storielize-microservice
+A microservice which turns YouTube videos into videos that can be stories. Has three options, Clip: Takes a begin and end point and creates a clip; Comp, with given skip and clip lengths, creates a preview of the video; Smart, does what Comp does but this time it automatically fits the product video in 15 second limit which is the story limit. Then uploads it into a S3 Bucket
